@@ -2,7 +2,7 @@ this project contain a simple system with xilinx microblaze processor and xilinx
 this design required daughtcard: hdmi_mgb2_v11 as the uart io interface and ddr4_ht3_8G as the external storage device.  
 
 design purpose:  
-this design can recieve data form axi_uartlite RX and converting the incoming characters into 34-bit command words, and the store the words to FIFO and then send to external memory,  
+this design can recieve data form axi_uartlite RX and converting the incoming characters into 34-bit command words, and then store the words to FIFO and then send to external memory,  
 issuing those commands across the bus, and then recoding the 34-bit command results back for transmission across the serial port through microblaze processor  
 
 if adding something ip which can accessing this memory device, it can be accessed through any other interface  
