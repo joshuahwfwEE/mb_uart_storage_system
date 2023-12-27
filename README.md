@@ -13,4 +13,15 @@ pros & cons:
 1. it can be used for development the application in customize env, does not necessary to be bond with xilinx toolchain
 2. microblaze and uart contoller used for receiving, converting, storing, decoding transmiting, for the large design, microblaze could not work fine.
 
-hence next version, I will update a axi_master for receive and transmit the uart data directly instead of taking too much effort in the microblaze.  
+hence next version, I will update a axi_master for receive and transmit the uart data directly instead of taking too much effort in the microblaze.    
+
+how to use:  
+you can open vivado 2022.2  
+open tcl command line  
+source create_proj_1.tcl  
+you will get a whole design without running the synthesis and implement yet
+you can directly run generate the bitstream in the GUI or,  
+source build_bitstrem.tcl  
+you will get the bit file in the proj1.runs  
+source check_proj_1_timing.tcl  
+it will automatve to check the design met timing requirement or nor.
