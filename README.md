@@ -20,8 +20,10 @@ you can open vivado 2022.2
 open tcl command line  
 source create_proj_1.tcl  
 you will get a whole design without running the synthesis and implement yet
-you can directly run generate the bitstream in the GUI or,  
+you can directly run generate the bitstream in the GUI.  
+
+or you can use this tcl if you are using non-project mode:  
 source build_bitstrem.tcl  
-you will get the bit file in the proj1.runs  
+after a while, you will get the bit file in the proj1.runs  
 source check_proj_1_timing.tcl  
-it will automatve to check the design met timing requirement or nor.
+it will automatve to check the design met timing requirement or not.
