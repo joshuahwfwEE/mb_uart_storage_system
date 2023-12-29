@@ -7,7 +7,7 @@ issuing those commands across the bus, and then recoding the 34-bit command resu
 
 if adding something ip which can accessing this memory device, it can be accessed through any other interface  
 for example:  
-a synopsys ip that can be used for accessing the memory and be control by their own runtime env, they can choose the perfer env to develope their application.  
+a thrid party ip or your customized ip that can be used for accessing the memory and be control by their own runtime env, they can choose the perfer env to develope their application.  
 
 pros & cons:
 1. it can be used for development the application in customize env, does not necessary to be bond with xilinx toolchain
