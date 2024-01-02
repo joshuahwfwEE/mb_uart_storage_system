@@ -26,4 +26,4 @@ or you can use this tcl if you are using non-project mode:
 source build_bitstrem.tcl  
 after a while, you will get the bit file in the proj1.runs  
 source check_proj_1_timing.tcl  
-it will automatve to check the design met timing requirement or not.
+it will automatically checking the design met timing requirement or not.
