@@ -13,7 +13,7 @@ pros & cons:
 1. it can be used for development the application in customize env, does not necessary to be bond with xilinx toolchain
 2. microblaze and uart contoller used for receiving, converting, storing, decoding transmiting, for the large design, microblaze could not work fine.
 
-hence next version, I will update a axi_master for receive and transmit the uart data directly instead of taking too much effort in the microblaze.    
+hence next version, I will update a axi_master as a bridge for receive and transmit the uart data directly instead of taking resource in the microblaze.    
 
 how to use:  
 you can open vivado 2022.2  
