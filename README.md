@@ -10,8 +10,12 @@ for example:
 a thrid party ip or your customized ip that can be used for accessing the memory and be control by their own runtime env, they can choose the perfer env to develope their application.  
 
 pros & cons:
-1. it can be used for development the application in customize env, does not necessary to be bond with xilinx toolchain
-2. microblaze and uart contoller used for receiving, converting, storing, decoding transmiting, for the large design, microblaze could not work fine.
+1. it can be used for development the application in customize env, does not necessary to be bond with xilinx toolchain since its bond to mbz
+2. microblaze and uart contoller used for receiving, converting, storing, decoding transmiting, for the large design, microblaze's usage is precious, it will take much effort of processor
+
+xilinx tech support recommand you use mbz for control all their axi slave.  
+I think we can implement a uart2wb bridge to implement a conversion controller that can access to the wb memory( or even add an extra wb2axi to xilinx block ram interface)   
+
 
 hence next version, I will update a axi_master as a bridge for receive and transmit the uart data directly instead of taking resource in the microblaze.    
 
