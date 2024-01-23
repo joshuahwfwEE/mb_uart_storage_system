@@ -18,6 +18,7 @@ I think we can implement a uart2wb bridge to implement a conversion controller t
 
 
 hence next version, I will update a axi_master as a bridge for receive and transmit the uart data directly instead of taking resource in the microblaze.    
+see uart2wb module and wb2axi_master module
 
 how to use:  
 you can open vivado 2022.2  
